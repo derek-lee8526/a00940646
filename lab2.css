@@ -1,0 +1,58 @@
+#headerDiv {
+    border:1px solid slategrey;
+    height: 130px;
+    width:38%;
+    margin-left:31%;
+}
+
+.userProfile {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: -9px;
+}
+
+.userCard {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.userDiv {
+    padding-left: 8px;
+    font-size: 1
+}
+
+.divBorder {
+    border: 1px solid slategrey;
+    padding: 10px;
+    border-top:0px;
+}
+
+.divBorder:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 7px;
+}
+
+#mainDiv {
+    margin-top: 8%;
+}
+
+#headerContent {
+    font-weight: bold;
+    font-size: 17pt;
+    margin-left: 1.5em;
+}
+
+.inputBox {
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+p {
+    font-family: 'Indie Flower'
+}
