@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./lab3.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id=mainDiv>
+            <div id=headerDiv>
+                <div id=headerContent>
+                    <p>Artist Directory</p>
+                    <input type="text" class=inputBox>
+                    <button type="button" onclick="showAdd()">Add Artist</button>
+                </div>
+            </div>
+            <div id=addArtistForm style="display: none">  
+                <form id="form"> 
+                    <input type ='text' placeholder="Artist Name" class=inputBox id="name" value= > <br/>
+                    <input type = 'text' placeholder="About Artist" class=inputBox id="about"> <br/>
+                    <input type = 'text' placeholder="Artist Image" id="image" class=inputBox><br/>
+                </form>
+                <button type = "button" onclick="addUser()" id="addButton">Add</button>
+            </div>
+        </div>
+
+    </body>
+            <script type="text/javascript" src="./lab3.js"></script>
+    </html>
