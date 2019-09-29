@@ -80,6 +80,7 @@ p {
     color:white;
     border-radius: 12%;
     border: none;
+    margin-top: 6%;
 }
 
 #deleteButton:hover {

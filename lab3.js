@@ -42,12 +42,13 @@ function addUser() {
     deleteButton.setAttribute("id", "deleteButton")
     artistimage.setAttribute("src",img);
     newDiv.setAttribute("class", "userCard")
+    newDiv.setAttribute("id", "deleteID" )
     imgdiv.setAttribute("class", "divBorder")
     namediv.setAttribute("class","userProfile userDiv")
     p.setAttribute("class", "userProfile")
     deleteButton.onclick = function() {
-      let e = document.getElementsByClassName('divBorder');
-      
+        let el = document.getElementById("deleteID");
+        el.remove();
     }
     document.body.appendChild(newDiv);
 }
