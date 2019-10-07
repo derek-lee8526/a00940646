@@ -97,7 +97,7 @@ function deleteUser(name) {
         if(JSON.parse(localStorage.getItem("artist"))[i].name === name) {
             console.log(name)
             storage.splice(i,1);
-            JSON.stringify(storage);
+            localStorage.setItem("artist", JSON.stringify(storage))
         }
     }
 }
