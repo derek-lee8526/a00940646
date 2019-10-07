@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./lab3.css">
+        <link rel="stylesheet" type="text/css" href="./lab4.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -9,9 +9,9 @@
             <div id=headerDiv>
                 <div id=headerContent>
                     <p>Artist Directory</p>
-                    <input type="text" class=inputBox>
+                    <input type="text" class=inputBox id=input>
                     <button type="button" onclick="showAdd()">Add Artist</button>
-                    <button type="button" >Search</button>
+                    <button type="button" onclick="search()">Search</button>
                 </div>
             </div>
             <div id=addArtistForm style="display: none">  
@@ -20,10 +20,10 @@
                     <input type = 'text' placeholder="About Artist" class=inputBox id="about" maxlength="40"> <br/>
                     <input type = 'text' placeholder="Artist Image" id="image" class=inputBox><br/>
                 </form>
-                <button type = "button" onclick="addUser()" id="addButton">Add</button>
+                <button type = "button" onclick="addToStorage(); getUser();" id="addButton">Add</button>
             </div>
         </div>
 
     </body>
-            <script type="text/javascript" src="./lab3.js"></script>
+            <script type="text/javascript" src="./lab4.js"></script>
     </html>
