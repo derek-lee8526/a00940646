@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./lab5.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id=mainDiv>
+            <div id=headerDiv>
+                <div id=headerContent>
+                    <p>Artist Directory</p>
+                    <input type="text" class=inputBox id=input>
+                    <button type="button" onclick="showAdd()">Add Artist</button>
+                    <button type="button" onclick="search()">Search</button>
+                </div>
+            </div>
+            <div id=addArtistForm style="display: none">  
+                <form id="form" method='POST' action='/lab5'> 
+                    <input type ='text' placeholder="Artist Name" class=inputBox id="name" maxlength="40" name='name'> <br/>
+                    <input type ='text' placeholder="About Artist" class=inputBox id="about" maxlength="40" name='about'> <br/>
+                    <input type ='text' placeholder="Artist Image" id="image" class=inputBox name='img'><br/>
+                    <input type ="submit" onclick=" getUser();" id="addButton" value="Add"/>
+            </div>
+        </div>
+
+    </body>
+            <script type="text/javascript" src="./lab5.js"></script>
+    </html>

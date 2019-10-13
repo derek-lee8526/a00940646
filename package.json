@@ -1,0 +1,20 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lab5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/derek-lee8526/a00940646.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}

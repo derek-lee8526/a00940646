@@ -76,7 +76,7 @@ function addToStorage() {
 }
 
 function search() {
-    let input, filter, p, textValue, parentdiv;
+    let input, filter, textValue, parentdiv;
     input = document.getElementById("input");
     filter = input.value.toLowerCase();
     parentdiv = document.getElementsByClassName("userDiv");
