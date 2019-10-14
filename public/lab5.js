@@ -50,7 +50,6 @@ function addUser(name, desc, img) {
         deleteUser(name);
     }
     document.body.appendChild(newDiv);
-    document.getElementById("form").reset();
 }
 
 function getUser() {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./lab5.css">
+        <link rel="stylesheet" type="text/css" href="/lab5.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -15,14 +15,15 @@
                 </div>
             </div>
             <div id=addArtistForm style="display: none">  
-                <form id="form" method='POST' action='/lab5'> 
+                <form id="form" method='POST' action='/lab5' onsubmit="this.submit(); this.reset(); return false" > 
                     <input type ='text' placeholder="Artist Name" class=inputBox id="name" maxlength="40" name='name'> <br/>
                     <input type ='text' placeholder="About Artist" class=inputBox id="about" maxlength="40" name='about'> <br/>
                     <input type ='text' placeholder="Artist Image" id="image" class=inputBox name='img'><br/>
-                    <input type ="submit" onclick=" getUser();" id="addButton" value="Add"/>
+                    <input type ="submit" id="addButton" value="Add" onclick=" getUser();"/>
+                </form>
             </div>
         </div>
 
     </body>
-            <script type="text/javascript" src="./lab5.js"></script>
+            <script type="text/javascript" src="/lab5.js"></script>
     </html>
