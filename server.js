@@ -42,5 +42,5 @@ app.post('/lab5', urlencodedParser, function(req,res) {
     res.status(204).send();
 })
 
-app.listen(3000);
+app.listen(80);
 console.log('server start')
