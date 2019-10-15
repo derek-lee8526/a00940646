@@ -23,7 +23,11 @@
                 <button type = "button" onclick="addUser()" id="addButton">Add</button>
             </div>
         </div>
-
+        {{#each artist}}
+        <span><b>{{this.name}}</b></span><br>
+        <img src='{{this.imageUrl}}' />
+        <span>{{this.about}}</span><br>
+         {{/each}}
     </body>
             <script type="text/javascript" src="./lab3.js"></script>
     </html>
